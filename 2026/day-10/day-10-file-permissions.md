@@ -6,14 +6,14 @@
 
 ## Permission Changes
 
-###Before permission changes 
+### Before permission changes 
 ```
 -rw-r--r--. 1 ec2-user ec2-user  0 Feb  3 14:45 devops.txt
 -rw-r--r--. 1 ec2-user ec2-user 27 Feb  3 14:48 notes.txt
 -rw-r--r--. 1 ec2-user ec2-user 24 Feb  3 14:56 script.sh
 ```
 
-###After permission changes
+### After permission changes
 ```
 -r--r--r--. 1 ec2-user ec2-user  0 Feb  3 14:45 devops.txt
 -rw-r-----. 1 ec2-user ec2-user 27 Feb  3 14:48 notes.txt
