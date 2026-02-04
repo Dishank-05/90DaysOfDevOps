@@ -6,20 +6,23 @@
 
 ## Permission Changes
 
-Before permission changes 
-
+###Before permission changes 
+'''
 -rw-r--r--. 1 ec2-user ec2-user  0 Feb  3 14:45 devops.txt
 -rw-r--r--. 1 ec2-user ec2-user 27 Feb  3 14:48 notes.txt
 -rw-r--r--. 1 ec2-user ec2-user 24 Feb  3 14:56 script.sh
+'''
 
-After permission changes
-
+###After permission changes
+'''
 -r--r--r--. 1 ec2-user ec2-user  0 Feb  3 14:45 devops.txt
 -rw-r-----. 1 ec2-user ec2-user 27 Feb  3 14:48 notes.txt
 drwxr-xr-x. 2 ec2-user ec2-user  6 Feb  3 15:07 project
 -rw-r--r--. 1 ec2-user ec2-user 24 Feb  3 14:56 script.sh
+'''
 
 ## Commands Used
+'''
 touch devops.txt
 echo "Adding a line in notes.txt" >notes.txt
 vim script.sh
@@ -35,6 +38,7 @@ cat "Another line" >devops.txt
 chmod a-x script.sh
 ls -l
 ./script.sh
+'''
 
 ## What I Learned
 1. Permissions play a critical role in controlling read, write, and execute access for users and groups.
