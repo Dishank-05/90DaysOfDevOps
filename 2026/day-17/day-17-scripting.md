@@ -126,6 +126,6 @@ echo "Script completed successfully!"
 
 - How to use for and while loops in bash scripting.
 
-- How to handle command-line arguments using $1, $#, $@.
+- How to handle command-line arguments using $1 , $# , $@.
 
 - How to implement basic error handling using set -e and root checks.
