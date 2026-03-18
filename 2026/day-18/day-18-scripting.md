@@ -5,7 +5,6 @@
 ### functions.sh
 
 ```bash
-
 #!/bin/bash
 
 greet(){
@@ -23,8 +22,6 @@ add(){
 
 greet Dishank
 add 5 7
-
-
 ```
 
 ### Task 2: Functions with Return Values
