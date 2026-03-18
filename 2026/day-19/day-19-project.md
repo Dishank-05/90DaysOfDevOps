@@ -109,7 +109,11 @@ echo "===== END OF REPORT ====="
 ```
 
 0 2 * * * ./log_rotate.sh /var/log/nginx/ - ( Runs everyday at 2 AM )
+
+
 0 3 * * 0 ./backup.sh /home/ec2-user/day_18 /home/ec2-user/backup_folder - ( Runs every sunday at 3 AM )
+
+
 */5 * * * * /home/ec2-user/day-19/health_check.sh >> /home/ec2-user/day-19/report.log 2>&1 - ( Runs every 5 mins ) 
 
 ### Task 4: Combine — Scheduled Maintenance Script
