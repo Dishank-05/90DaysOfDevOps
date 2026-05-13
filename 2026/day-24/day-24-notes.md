@@ -1,4 +1,4 @@
-# 🚀 Day 24 – Advanced Git: Merge, Rebase, Stash & Cherry Pick
+# Day 24 – Advanced Git: Merge, Rebase, Stash & Cherry Pick
 
 ---
 
@@ -29,7 +29,7 @@ git merge feature-signup
 
 ---
 
-### ✅ Observations
+### Observations
 
 * First merge → fast-forward
 * Second merge → merge commit
@@ -95,11 +95,11 @@ Re-applies commits on top of another branch.
 Merge → non-linear history
 Rebase → linear history
 
-#### 🔸 Why avoid rebasing shared commits?
+####  Why avoid rebasing shared commits?
 
 Because it rewrites history and breaks collaboration.
 
-#### 🔸 When to use?
+####  When to use?
 
 Rebase → local cleanup
 Merge → shared branches
